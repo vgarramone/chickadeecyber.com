@@ -9,14 +9,24 @@
       margin: 0;
       height: 100vh;
       display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
       justify-content: center;
       align-items: center;
       font-family: monospace;
       font-size: 1.5rem;
+      text-align: center;
+    }
+
+    .logo {
+      display: block;
+      width: min(320px, 70vw);
+      height: auto;
     }
   </style>
 </head>
 <body>
-  Chickadee Cyber | Home Cybersecurity Solutions for the Twin Cities Metro.
+  <img class="logo" src="img/logo1.png" alt="Chickadee Cyber logo">
+  <div>Chickadee Cyber | Home Cybersecurity Solutions for the Twin Cities Metro.</div>
 </body>
 </html>
